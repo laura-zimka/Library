@@ -94,14 +94,12 @@ public class Library {
                 genreStatistic(con);
                 break;
             default:
-                System.out.print("\noperation not found" + "\ntry again: ");
+                System.out.print("\noperation not found");
                 break;
 
         }
 
     }
-
-
 
     static void addBook (Connection con){
         System.out.println("\nadd a new book to the database\n");
